@@ -7,7 +7,7 @@ on:
 # Environment variables used across jobs
 env:
   RESOURCE-GROUP: 'rg-eshoponweb-PhilipH' # Replace NAME with your unique identifier
-  LOCATION: 'eastus' # Choose your Azure region
+  LOCATION: 'westus' # Choose your Azure region
   TEMPLATE-FILE: '${{ github.workspace }}/infra/webapp.bicep'
   SUBSCRIPTION-ID: '478c777b-81ae-4efe-a400-2cf614dc83da' # Replace with your subscription ID
   WEBAPP-NAME: 'eshoponweb-xtr123test' # Replace NAME with unique identifier (lowercase, no spaces)
